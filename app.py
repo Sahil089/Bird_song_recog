@@ -60,7 +60,7 @@ def submit():
         # if f.filename == '':
         #     return "No selected file"   
         file_path = os.path.join(UPLOAD_FOLDER, f.filename)
-        f.save(file_path)
+        # f.save(file_path)
         name=predict_bird_species(file_path)  
         return render_template("output.html", name=name)
 
