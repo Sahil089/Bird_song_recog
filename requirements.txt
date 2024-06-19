@@ -2,6 +2,5 @@ flask
 librosa
 numpy
 pandas
-os
 keras
 gunicorn
